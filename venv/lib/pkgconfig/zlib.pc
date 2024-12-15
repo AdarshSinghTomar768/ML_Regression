@@ -1,0 +1,13 @@
+prefix=/home/adarsh/Documents/Regression_Practice/venv
+exec_prefix=/home/adarsh/Documents/Regression_Practice/venv
+libdir=/home/adarsh/Documents/Regression_Practice/venv/lib
+sharedlibdir=/home/adarsh/Documents/Regression_Practice/venv/lib
+includedir=/home/adarsh/Documents/Regression_Practice/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
